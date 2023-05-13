@@ -1,0 +1,19 @@
+{% extends "base.html" %} {% block title %}Summary{% endblock %} {% block content
+%}
+<body class = "bg-changes" id="Notes-font" >
+<h1 align="center" id="h1content"> Notes Summary </h1>
+<br>
+<div id="containsty">
+<h3 class="h3content"> Original Note </h3>
+<p class="original_txt">{{original_txt}}</p>
+<form action= "/" method="POST" >
+  <h3 class="h3content"> Summarized Note </h3>
+  <textarea name="note" id="note" rows="4" class="form-control" class="summary_txt" > {{summary}}</textarea>
+  <br/>
+  <div align="center">
+    <button type="submit" class="btn btn-warning"><a class="nav-item nav-link" id="home" href="/">Add this note</a></button>
+  </div>
+</div>
+</form>
+</body>
+{% endblock %}

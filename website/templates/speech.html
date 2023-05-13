@@ -1,0 +1,29 @@
+{% extends "base.html" %} {% block title %}Speech Recognition{% endblock %} {% block content
+%}
+<body class = "bg-changes" id="Notes-font" >
+<h1 align="center" id="h1content"> Speech Recognition </h1>
+<br>
+<div id="speechContainer">
+    <h3 align="centre" class="h3content"> Upload File </h3>
+    <br>
+    <form action= "/speech-recognition" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file"/>
+        <br> <br>
+        <h3 align="centre" class="h3content"> Click here to transcribe File </h3>
+        <input type="submit" id="submitButton" value="Transcribe"/>
+        <br> <br>
+        {% if transcript != "" %}
+        <h3 align="centre" class="h3content"> Transcribed </h3>
+        <br>
+        <div id="speechTranscriptContainer">
+            <textarea name="note" id="note" rows="3" class="form-control" >{{ transcript }}</textarea>
+        </div>
+        <br>
+        <div align="center">
+            <button type="submit" class="btn btn-success"><a class="nav-item nav-link" id="home" href="/">Add this note</a></button>
+        </div>
+        {% endif %}
+    </form>
+
+</div>
+{% endblock %}

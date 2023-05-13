@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<body class = "bg-changes" id="Notes-font">
+<h1 align="center" id="h1content"> Important Notes </h1>
+<br>
+<ul class="list-group list-group-flush" id="notes">
+  {% for note in user.notes %}
+  <li class="list-group-item">
+    {{ note.data }}
+    <button type="button" class="close" onClick="deleteNote({{ note.id }})">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </li>
+  {% endfor %}
+</ul>
+<form action= "/" method="POST">
+  <textarea name="note" id="note" class="form-control"></textarea>
+  <br/>
+  <div align="center">
+    <button type="submit" class="btn btn-info">Add Note</button>
+    <button type="submit" class="btn btn-success">Summarize</button>
+    <button type="submit" class="btn btn-warning"><a class="nav-item nav-link" id="speechText" href="/speech-recognition">Speech Recognition</a></button>
+    <button type="submit" class="btn btn-danger"><a class="nav-item nav-link" id="logout" href="/logout">Logout</a></button>
+  </div>
+</form>
+</body>
+{% endblock %}

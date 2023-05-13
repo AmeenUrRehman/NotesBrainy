@@ -1,0 +1,70 @@
+{% extends "base.html" %} {% block title %}Sign Up{% endblock %} {% block
+content %}
+<body class="bg-nav-2">
+
+  <nav class = "navbar">
+    <a href="" class = "navbar-brand text-light"></a>
+  </nav>
+
+  <div class="container">
+    <bod class="row">
+      <div class="col-md-8">
+        <h1 class = "text-light display-4 mt-100" style="font-size:70px" id="logincontent2" >
+            Artificial intelligence is the science of
+            making machines do things that would require intelligence if done by men.</h1>
+      </div>
+      <div class="col-md-4" id="cardsignup" >
+        <div class="card mt-100"  class="input-field">
+          <div class = "card-body">
+            <form method="POST">
+              <h3 align="center">Sign Up</h3>
+              <div class="form-group">
+                  <i class="uil uil-envelope icon"></i>
+                <label for="email">Email Address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      placeholder="Enter email"
+                    />
+              </div>
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      name="firstName"
+                      placeholder="Enter first name"
+                    />
+              </div>
+              <div class="form-group">
+                <label for="password1">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password1"
+                      name="password1"
+                      placeholder="Enter password"
+                    />
+              </div>
+              <div class="form-group">
+                <label for="password2">Password (Confirm)</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password2"
+                      name="password2"
+                      placeholder="Confirm password"
+                    />
+              </div>
+              <button type="submit" class="w-100 btn btn-lg btn-primary">Submit</button>
+            </form>
+            <p class="mt-2">Already a member?<a href="login">&nbsp;Login</a> </p>
+          </div>
+      </div>
+  </div>
+</body>
+
+{% endblock %}

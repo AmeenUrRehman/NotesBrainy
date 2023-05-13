@@ -1,0 +1,97 @@
+.bg-nav{
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 60px;
+}
+.mt-100{
+    margin-top:15px;
+    margin-bottom:50px;
+}
+
+.bg-nav-2{
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+#logincontent{
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+#logincontent2{
+    font-family: fangsong;
+    padding-top: 25px;
+}
+
+#cardfont{
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 19px;
+}
+
+#headercon{
+    padding: 15px;
+    font-family:  Times, "Times New Roman", Georgia, serif;
+    font-size: 60px;
+    color: white;
+    padding-top: 45px;
+}
+
+#signupcontent{
+    font-family: fangsong;
+    font-size: 64px;
+}
+
+#cardsignup{
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 17px;
+}
+
+.bg-changes{
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-left: 20px;
+    margin: 40px;
+}
+
+#h1content{
+    font-family: fangsong;
+    font-size: 66px;
+    color: white;
+}
+
+#Notes-font{
+     font-family: fangsong;
+}
+
+#containsty{
+  justify-content: space-around;
+}
+
+.original_txt{
+    background-color: white;
+    padding:20px;
+}
+
+.summary_txt{
+    background-color: white;
+    padding:20px;
+}
+
+.h3content{
+    font-family: fangsong;
+    font-size: 30px;
+    color: white;
+}
+
+#submitButton {
+    background-color: #0191FE;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
