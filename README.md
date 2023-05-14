@@ -6,7 +6,9 @@
 
 ## Features
 -  User-Friendly Interface: The NotesBrainy interface is designed to be intuitive and easy to use, making it simple for users to create and access their notes quickly and efficiently.
--  IMage
+
+![page2](https://github.com/AmeenUrRehman/NotesBrainy/assets/83868776/01b40dc3-4508-4ea4-8db2-9c73e99a3202)
+
 - Text Summarization: The application uses AI-powered text summarization to condense long pieces of text into shorter, more manageable summaries. This feature helps users to quickly understand the main points of a document without having to read through the entire thing.
 IMage
 - Speech Recognition: The application uses speech recognition to allow users to dictate their notes instead of typing them. This feature is particularly useful for people who find typing difficult or time-consuming.
