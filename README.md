@@ -16,7 +16,9 @@
 ![page4](https://github.com/AmeenUrRehman/NotesBrainy/assets/83868776/ce2b2551-8dc1-44bb-ba3a-9371efe0a22f)
 
 - Speech Recognition: The application uses speech recognition to allow users to dictate their notes instead of typing them. This feature is particularly useful for people who find typing difficult or time-consuming.
-Image
+
+![page5](https://github.com/AmeenUrRehman/NotesBrainy/assets/83868776/cb9317ac-0b45-4bef-b244-4852009e9332)
+
 - Deletion of Notes: The application provides a feature to delete the notes which are no longer needed. It helps the users to keep their notes clean and organized.
 - iMAGE 
 
