@@ -20,7 +20,8 @@
 ![page5](https://github.com/AmeenUrRehman/NotesBrainy/assets/83868776/cb9317ac-0b45-4bef-b244-4852009e9332)
 
 - Deletion of Notes: The application provides a feature to delete the notes which are no longer needed. It helps the users to keep their notes clean and organized.
-- iMAGE 
+
+![page6](https://github.com/AmeenUrRehman/NotesBrainy/assets/83868776/4d71c01c-600c-4fab-a061-524b4d171ad1)
 
 ## How to Use
 
