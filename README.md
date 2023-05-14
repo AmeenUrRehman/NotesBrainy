@@ -2,7 +2,7 @@
 
 #### NotesBrainy is an AI-powered note-taking application that uses text summarization, speech recognition, and deletion of notes to provide a seamless note-taking experience.
 
-Image 
+![page1](https://github.com/AmeenUrRehman/NotesBrainy/assets/83868776/284f2d7b-72dc-4dc1-b017-09d2783ba80c)
 
 ## Features
 -  User-Friendly Interface: The NotesBrainy interface is designed to be intuitive and easy to use, making it simple for users to create and access their notes quickly and efficiently.
