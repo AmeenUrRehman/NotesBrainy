@@ -10,7 +10,9 @@
 ![page2](https://github.com/AmeenUrRehman/NotesBrainy/assets/83868776/01b40dc3-4508-4ea4-8db2-9c73e99a3202)
 
 - Text Summarization: The application uses AI-powered text summarization to condense long pieces of text into shorter, more manageable summaries. This feature helps users to quickly understand the main points of a document without having to read through the entire thing.
-IMage
+
+![page3](https://github.com/AmeenUrRehman/NotesBrainy/assets/83868776/2a5ace59-bdd2-4f47-9411-5ca5b7598020)
+
 - Speech Recognition: The application uses speech recognition to allow users to dictate their notes instead of typing them. This feature is particularly useful for people who find typing difficult or time-consuming.
 Image
 - Deletion of Notes: The application provides a feature to delete the notes which are no longer needed. It helps the users to keep their notes clean and organized.
